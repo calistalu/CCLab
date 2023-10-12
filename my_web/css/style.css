@@ -1,0 +1,23 @@
+h1{
+    color:#82775a;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+h6{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+    
+
+p{
+    color:rgb(100, 100, 200);
+    font-family: 'Young serif', serif;
+    font-size: 30px;
+}
