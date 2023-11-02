@@ -8,6 +8,14 @@ h1{
     text-align: center;
 }
 
+#myTitle1{
+    color: blue;
+}
+
+#myTitle2{
+    color: orange;
+}
+
 h6{
     color:red;
     font-family: 'Times New Roman', Times, serif;
@@ -21,3 +29,51 @@ p{
     font-family: 'Young serif', serif;
     font-size: 30px;
 }
+
+.myPara1{
+    color: burlywood;
+    text-align: right;
+}
+
+.myPara2{
+    color: black;
+    text-align: center;
+}
+
+.allPara {
+    font-style: italic;
+    padding:100px;
+}
+
+#myPara3{
+    color:grey;
+}
+
+a{
+    color: blue;
+    font-size: 30px;
+}
+
+a:hover{
+    color: orange;
+}
+
+img{
+    width: 800px;
+    height: 300px;
+}
+
+#nyuimg{
+    text-align: center;
+}
+
+canvas{
+    display: block;
+    margin: auto;
+}
+
+#myp5{
+    border: 10px solid red;
+}
+
+/*human readable comment*/

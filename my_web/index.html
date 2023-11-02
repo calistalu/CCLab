@@ -3,34 +3,47 @@
 
 <head>
     <title>my web page</title>
-    <link rel="stylesheet" href="../my_web/css/style.css"
+    <link rel="stylesheet" href="../my_web/css/style.css">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <script src="../my_web/js/script.js"></script>
+    <script src="../my_web/js/lib/p5.js"></script>
 </head>
 
 <body>
     <h1>my heading 1</h1>
 
-    <h6 id="myTitle1" > my heading with smaller size</h6>
-    <h6 id="myTitle2" > another heading line with h6 tag</h6>
+    <h6 id="myTitle1"> my heading with smaller size</h6>
+    <h6 id="myTitle2"> another heading line with h6 tag</h6>
     <h6> another heading line with h6 tag</h6>
 
     <a href="http://nyu.edu">this is my link</a>
 
     <p class="myPara1 allPara">
-        this is a paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph with multiple sentences.this is a paragraph with multiple sentences.
+        this is a paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph
+        with multiple sentences.this is a paragraph with multiple sentences.
     </p>
+
+    <div id="p5container"> </div>
+
 
     <p class="myPara2 allPara">
-        this is the second paragraph with multiple sentences.<br>this is the second paragraph with multiple sentences.this is the second paragraph with multiple sentences.this is the second paragraph with multiple sentences.
+        this is the second paragraph with multiple sentences.<br>this is the second paragraph with multiple
+        sentences.this is the second paragraph with multiple sentences.this is the second paragraph with multiple
+        sentences.
     </p>
 
-    <p>
-        this is the third paragraph with multiple sentences.<br>this is the third paragraph with multiple sentences.this is the third paragraph with multiple sentences.this is the third paragraph with multiple sentences.
+    <p id="myPara3" class="allPara">
+        this is the third paragraph with multiple sentences.<br>this is the third paragraph with multiple sentences.this
+        is the third paragraph with multiple sentences.this is the third paragraph with multiple sentences.
     </p>
 
+    <div id="nyuimg">
+        <img class="nyush" src="../my_web/images/nyu.jpeg" alt="a picture of nyush">
+    </div>
 
-    <img src="images/nyu.jpg" alt="a picture of nyush"
 
     <ol>
         <li>item</li>
@@ -48,6 +61,8 @@
         <li>item 4</li>
         <li>item 5</li>
     </ul>
+    
+    <!--human readable comments-->
 
 </body>
 
