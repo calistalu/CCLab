@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <title>my web page</title>
-    <link rel="stylesheet" href="../my_web/css/style.css">
+    <!-- use link tag to link external stylesheet, a css file -->
+    <link rel="stylesheet" href="css/style.css"/>
 
+    <!-- use link tag to link external font file from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-    <script src="../my_web/js/script.js"></script>
-    <script src="../my_web/js/lib/p5.js"></script>
+
+    <!-- using script tag to link our js script -->
+    <script src="js/script.js"></script>
+
+    link to p5 library    
+    <script src="js/lib/p5.js"></script>
+
+    <!-- link to p5 library hosted in CDN     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script> -->
 </head>
 
 <body>
@@ -19,14 +28,15 @@
     <h6 id="myTitle2"> another heading line with h6 tag</h6>
     <h6> another heading line with h6 tag</h6>
 
+    <!-- where my p5 goes  -->
+    <div id="p5container"></div>
+
     <a href="http://nyu.edu">this is my link</a>
 
     <p class="myPara1 allPara">
         this is a paragraph with multiple sentences.<br>this is a paragraph with multiple sentences.this is a paragraph
         with multiple sentences.this is a paragraph with multiple sentences.
     </p>
-
-    <div id="p5container"> </div>
 
 
     <p class="myPara2 allPara">
@@ -41,7 +51,7 @@
     </p>
 
     <div id="nyuimg">
-        <img class="nyush" src="../my_web/images/nyu.jpeg" alt="a picture of nyush">
+        <img src="images/nyu.jpeg" alt="a picture of nyush">
     </div>
 
 
